@@ -6,6 +6,7 @@
   ],
   "license": "Apache-2.0",
   "scripts": {
+    "start": "ls -a",
     "build": "mkdir -p dist/hello-world && cp src/*.html dist/hello-world/ && npx webpack"
   },
   "dependencies": {
